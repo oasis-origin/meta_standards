@@ -1,7 +1,7 @@
 Overview
 ========
 
-A set of stndards for Oasis Source repositories.
+A set of standards for Oasis Source repositories.
 
 Naming
 ======
@@ -30,7 +30,7 @@ Layouts
   should be followed.
 * In general, no roles should be written directly into playbooks here in the
   oasis-origin namespace. If there is need for a new role, it should be
-  submitted to oasis-roles and kept there for the purpose of shareable and
+  submitted to [oasis-roles] and kept there for the purpose of shareable and
   reusable roles.
 
 Testing
@@ -40,3 +40,5 @@ Testing
   present in the Travis checks
 * Additionally, all playbooks should always support all Vagrantfiles that are
   shipped in the repository
+
+[oasis-roles]: https://github.com/oasis-roles
